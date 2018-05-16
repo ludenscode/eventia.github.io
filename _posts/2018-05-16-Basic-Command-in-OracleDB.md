@@ -5,10 +5,10 @@ title: Oracle DB 기본명령어(JSP/Spring 학습에 필요한 최소양)
 
 jsp/spring 학습시 필요한 oracle db (sqlplus) 의 기본명령어를 알아보겠습니다. 오라클 DB 설치는 XE11g 로 합니다. 다운과 설치는 여기서 다루지 않습니다. 간단하게 학습할 내용은 설치 후 꼭 필요한 기본 명령들입니다. 관리자 접속, 사용자 계정 생성, 인증, 종료, 테이블생성과 검색, 추가, 삭제, 레코드 추가, 수정, 삭제, 저장(커밋)등입니다.
 
+<br/>
+## 설치 후 첫실행
 
-설치 후 첫실행
---------------
-
+<br/>
 ### 관리자계정접속
 <pre>
 > sqlplus system/oracle
@@ -108,6 +108,7 @@ SQL>DELETE FROM member WHERE name = '최러기';
 SQL>commit;
 </pre>
 
+<br/>
 <hr/>
 
 ## A.계정 관련
@@ -146,6 +147,7 @@ SQL>connect scott/tiger;
 
 
 
+<br/>
 
 ## B.권한 관련
 ### 사용자계정에 접속 권한 주기
@@ -162,6 +164,7 @@ SQL>REVOKE CONNECT, RESOURCE FROM scott;
 
 
 
+<br/>
 
 ## C. 테이블 관련
 ### 모든 테이블 보기
@@ -208,8 +211,10 @@ SQL>DROP TABLE mtmember;
 
 
 
+<br/>
 
 ## D. 입출력
+
 ### 레코드추가
 <pre>
 SQL>INSERT INTO member (id, name, phone, pw)  VALUES ('abc', '김가나', '555-5555', '112' );
@@ -237,6 +242,7 @@ SQL>SELECT id FROM member WHERE name='한가나';
 SQL>DELETE FROM member WHERE name = '최러기';
 </pre>
 
+<br/>
 
 ## E. 기타
 ### DB명 확인
