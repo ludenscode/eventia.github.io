@@ -45,6 +45,12 @@ SQL> create table member (id varchar2(20) primary key, pw varchar2(20), name var
 SQL> create table mtmember (id varchar2(20) primary key, pw varchar2(20), name varchar2(20));
 </pre>
 
+### 생성시 변수타입
+
+varchar, **varchar2**, char, **number**, **date**, clob
+
+<br/>
+
 ### 테이블검색
 <pre>
 SQL> select * from tab;
