@@ -19,22 +19,22 @@ avatar: https://raw.githubusercontent.com/eventia/my-first-blog/master/profile_m
 footer-links:
   dribbble:
   email:  eventia@gmail.com
-  facebook: facebook.com/ludenscode
+  facebook: ludenscode
   flickr:
-  github: barryclark/jekyll-now
+  github: eventia/
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: https://www.youtube.com/channel/UCp7HnUecAXHcCKbE2J7gy-g
+  youtube: channel/UCp7HnUecAXHcCKbE2J7gy-g
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: 
+disqus: lcode
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
