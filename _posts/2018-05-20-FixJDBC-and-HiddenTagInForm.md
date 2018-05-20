@@ -24,7 +24,7 @@ jsp 강의 예제 중 19번째 강의 예제에 있는 소스에 문제가 있�
 
 id = (String)session.getAttribute("id");
 
-```jsp
+```
 <form action="ModifyOk" method="post">
   이름 : <input type="text" name="name" size="10" value=<%=name %>><br />
   아이디 : <%=id %><br />
@@ -57,7 +57,7 @@ id = (String)session.getAttribute("id");
 ```
 
 위의 기본 form 에서 <form> 과 </form> 사이에 적당한 곳에 행을 추가해서 
-```jsp
+```
 <input type="hidden" name="id" value=<%=id %>>
 ```
 
