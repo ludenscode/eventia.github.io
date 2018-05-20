@@ -30,15 +30,15 @@ id = (String)session.getAttribute("id");
   아이디 : <%=id %><br />
   비밀번호 : <input type="text" name="pw" size="10"><br />
   전화번호 : <select name="phone1">
-	<option value="010">010</option>
-	<option value="016">016</option>
-	<option value="017">017</option>
-	<option value="018">018</option>
-	<option value="019">019</option>
-	<option value="011">011</option>
+    <option value="010">010</option>
+    <option value="016">016</option>
+    <option value="017">017</option>
+    <option value="018">018</option>
+    <option value="019">019</option>
+    <option value="011">011</option>
   </select> - 
   <input type="text" name="phone2" size="5" value=<%=phone2 %>> - 
-	<input type="text" name="phone3" size="5" value=<%=phone3 %>> <br />
+    <input type="text" name="phone3" size="5" value=<%=phone3 %>> <br />
   <%
   if(gender.equals("man")) {
   %>
@@ -61,7 +61,7 @@ id = (String)session.getAttribute("id");
 <input type="hidden" name="id" value=<%=id %>>
 ```
 
-를 넣어준다.
+를 넣는다.
 
 hidden 타입은 화면에는 나오지 않지만 name 과 value 를 가지고 submit 을 했으때 값이 전달된다. 수정하고자하는 내용은 입력해야 하지만 항목번호인 id 값은 입력하지 않고 앞에서 가져온 값을 그대로 쓰고, 그대로 전달해주면 된다. 이때 hidden 태그를 사용할 수 있다.
 
