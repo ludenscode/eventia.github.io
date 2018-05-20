@@ -1,6 +1,6 @@
 ---
 layout: post
-title: hidden 태그 사용과 jdbc 사용 에러 처리
+title: hidden 태그 사용과 db 에러 처리
 ---
 
 HTML 의 Form 태그를 이용해서 원하는 값을 jsp / Servlet 으로 넘겨줄 수 있다. 그때 hidden 태그를 사용하여 보이지 않는 값을 넘길 수 있다.
