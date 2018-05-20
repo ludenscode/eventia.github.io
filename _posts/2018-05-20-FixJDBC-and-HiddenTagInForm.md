@@ -12,11 +12,11 @@ jsp 강의 예제 중 19번째 강의 예제에 있는 소스에 문제가 있�
 
 (참고: 이후에 다른 문법으로 아래 내용을 쉽게 쓸 수 있다. )<br/>
 
->**String query = "select * from jsp_address";**
+**String query = "select * from jsp_address";**
 
 를
 
->**String query = "select * from jsp_address where id = '" + id + "'";**
+**String query = "select * from jsp_address where id = '" + id + "'";**
 
 로 고쳐쓴다.
 
@@ -24,8 +24,7 @@ jsp 강의 예제 중 19번째 강의 예제에 있는 소스에 문제가 있�
 
 id = (String)session.getAttribute("id");
 
-<tr/>
-
+---
 ```jsp
 <form action="ModifyOk" method="post">
   이름 : <input type="text" name="name" size="10" value=<%=name %>><br />
@@ -57,8 +56,7 @@ id = (String)session.getAttribute("id");
   <input type="submit" value="정보수정"> <input type="reset" value="취소">
 </form>
 ```
-
-<tr/>
+---
 
 위의 기본 form 에서 <form> 과 </form> 사이에 적당한 곳에 행을 추가해서 
 
