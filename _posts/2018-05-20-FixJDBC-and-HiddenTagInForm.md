@@ -50,7 +50,7 @@ id = (String)session.getAttribute("id");
 ~~~
 
 위의 기본 form 에서 <form> 과 </form> 사이에 적당한 곳에 행을 추가해서 
-~~~
+~~~jsp
 <input type="hidden" name="id" value=<%=id %>>
 ~~~
 
