@@ -10,7 +10,7 @@ jsp 강의 예제 중 19번째 강의 예제에 있는 소스에 문제가 있�
 
 예제로 하나의 항목에 대한 간단한 수정만 하면 되는 것이라 그냥 넘어가도 되겠지만 2 이상의 입력이 주어졌을때 한 항목을 수정하면 전체가 고쳐져서 덮어써지는 현상은 교육적으로 넘어가기가 어렵다.
 
-(참고: 이후에 다른 문법으로 아래 내용을 쉽게 쓸 수 있다. )
+(참고: 이후에 다른 문법으로 아래 내용을 쉽게 쓸 수 있다. )<br/>
 **String query = "select * from jsp_address";**
 를
 **String query = "select * from jsp_address where id = '" + id + "'";**
@@ -20,7 +20,7 @@ jsp 강의 예제 중 19번째 강의 예제에 있는 소스에 문제가 있�
 
 id = (String)session.getAttribute("id");
 
-<pre>
+~~~
 <form action="ModifyOk" method="post">
 	이름 : <input type="text" name="name" size="10" value=<%=name %>><br />
 	아이디 : <%=id %><br />
@@ -47,12 +47,12 @@ id = (String)session.getAttribute("id");
 	%> 
 	<input type="submit" value="정보수정"> <input type="reset" value="취소">
 </form>
-</pre>
+~~~
 
 위의 기본 form 에서 <form> 과 </form> 사이에 적당한 곳에 행을 추가해서 
-<pre>
+~~~
 <input type="hidden" name="id" value=<%=id %>>
-</pre>
+~~~
 
 를 넣어준다.
 
