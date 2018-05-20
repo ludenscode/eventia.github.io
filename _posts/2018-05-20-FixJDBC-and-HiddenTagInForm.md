@@ -70,5 +70,7 @@ hidden 타입은 화면에는 나오지 않지만 name 과 value 를 가지고 s
 
 단, 위의 내용은 소스보기를 통해 보여질 수 있고, 악의적인 접근이 가능하므로 id 값을 화면에 보여주지 않고 처리하기 위해서는 세션등을 사용할 수 있다.
 
+전체소스 : https://github.com/eventia/jsp_lecture_2018/tree/master/zbc19
+
 ![View the Light](https://user-images.githubusercontent.com/3831276/40279649-1018e714-5c81-11e8-862b-7691f3719d0f.jpg "Girl with Light")
 
