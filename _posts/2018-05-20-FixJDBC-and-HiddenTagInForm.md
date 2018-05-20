@@ -20,7 +20,7 @@ jsp 강의 예제 중 19번째 강의 예제에 있는 소스에 문제가 있�
 
 id = (String)session.getAttribute("id");
 
-~~~
+~~~jsp
 <form action="ModifyOk" method="post">
 	이름 : <input type="text" name="name" size="10" value=<%=name %>><br />
 	아이디 : <%=id %><br />
