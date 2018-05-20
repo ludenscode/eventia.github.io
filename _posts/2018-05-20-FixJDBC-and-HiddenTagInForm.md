@@ -44,7 +44,7 @@ id = (String)session.getAttribute("id");
 	성별구분 : <input type="radio" name="gender" value="man" >남 &nbsp;<input type="radio" name="gender" value="woman" checked="checked">여 <br />
 	<%
 		}
-	%>
+	%> 
 	<input type="submit" value="정보수정"> <input type="reset" value="취소">
 </form>
 </pre>
