@@ -12,11 +12,11 @@ jsp 강의 예제 중 19번째 강의 예제에 있는 소스에 문제가 있�
 
 (참고: 이후에 다른 문법으로 아래 내용을 쉽게 쓸 수 있다. )<br/>
 
-**String query = "select * from jsp_address";**
+>**String query = "select * from jsp_address";**
 
 를
 
-**String query = "select * from jsp_address where id = '" + id + "'";**
+>**String query = "select * from jsp_address where id = '" + id + "'";**
 
 로 고쳐쓴다.
 
