@@ -1,8 +1,8 @@
 ---
 layout: post
-title: hidden 태그 사용과 db 에러 처리
+title: "hidden 태그 사용과 db 에러 처리"
 ---
-
+ 
 HTML 의 Form 태그를 이용해서 원하는 값을 jsp / Servlet 으로 넘겨줄 수 있다. 그때 hidden 태그를 사용하여 보이지 않는 값을 넘길 수 있다.
 jsp 강의 예제 중 19번째 강의 예제에 있는 소스에 문제가 있었다. 
 문제는 두가지인데 하나는 테이블 한 항목을 수정하면 전체가 바뀌는 것이었고, 그것을 수정하기 위해서는 SQL 의 where 구문을 사용해야만 했다.
@@ -74,3 +74,36 @@ hidden 타입은 화면에는 나오지 않지만 name 과 value 를 가지고 s
 
 ![View the Light](https://user-images.githubusercontent.com/3831276/40279649-1018e714-5c81-11e8-862b-7691f3719d0f.jpg "Girl with Light")
 
+
+
+
+### Small image
+
+![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+![](https://guides.github.com/activities/hello-world/branching.png)
+
+### Large image
+
+![](https://guides.github.com/activities/hello-world/branching.png)
+
+
+### Definition lists can be used with HTML syntax.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+
+```
+The final element.
+```

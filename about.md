@@ -1,67 +1,13 @@
 ---
 layout: page
 title: About
-permalink: /about/
+tagline: A few more words about this theme
+permalink: /about.html
 ---
 
-### Information
+This is the _Cayman Blog_ Jekyll theme. You can find out more info about customizing this theme, as well as basic usage documentation, and source code at: [cayman-blog](https://github.com/lorepirri/cayman-blog)
 
-개발과 교육을 하고 있는 바람 "임성국"입니다.
-
-한양대 대학원에서 신호처리-음성인식을 전공했고, "코벡" 에서 전자제어로 고하중 교량운송장치를 만들었습니다.
-
-이후 코딩교육에 뜻을 두고 현재 직업훈련원에서 자바, 스프링, 파이썬 등의 강의를 하고 있으며, 
-
-동영상강의로 기초코딩공부를 위한 스크래치, 아두이노, 파이썬 강좌와 (파이썬과 텐서플로를 이용한) 기초 머신러닝 강좌를 진행하고 있습니다.
-
-중고등학교에서 파이썬, 기초 전자회로(창의공학) 등을 가르치고 있으며, 교사들과 부모 대상의 코딩교육과 4차산업혁명에 대한 단기 강좌도 진행하고 있습니다.
-
-<br/>
-
-### More Information
-
-- 전남순천고등학교 
-- 경희대학교 토목공학 학사
-- 한양대학교 전자공학 박사수료(신호처리-음성인식)
-- 총신대학교 신학석사(M.Div)
-- 강북 삼각산재미난마을 상임이사
-- 경기교육자치포럼 미래교육국장
-
-<br/>
-
-[전]
-
-- 한양대 강의교수
-- 안산대, 호서대, 가톨릭대 강사
-- 코벡(주) 기술이사
-
-<br/>
-
-[현] 
-
-- 루덴스코드 대표
-- 산업기술대학교 강사
-- 강북 삼각산재미난마을 상임이사
-- 대안대학 별내대 교수
-- 경기교육자치포럼 미래교육국장
-- 교육나눔연대 4차산업국장
-
-<br/>
-
-[경력]
-
-* (2017) <아빠 우리 함께 아두이노해요> 저술
-* (2018-) 경기꿈의학교 "아두이노 꿈의학교" 주강사
-* (2016-) 무료 동영상 코딩교육프로젝트 **"처음코딩 <https://youtube.com/eventia77> "** 운영 
-* (2013-2016) 고하중물 운송기계와 제어기 제작/프로그램 개발
-* (2017-) 삼각산재미난마을 수유재 코딩 코칭
-* (2017-) 중, 고등학교 코딩교육 진행
-* (2017-) IT직업훈련 개발자과정 진행(파이썬, Java)
-* 그외 다수의 해커톤 참여 및 해커톤 멘토 활동과 메이커 활동
+You can find the source code for _Jekyll_ at [jekyll](https://github.com/jekyll/jekyll)
 
 
-<br/>
-
-### Contact me
-
-[eventia@gmail.com](mailto:eventia@gmail.com)
+[Go to the Home Page]({{ site.url }}{{ site.baseurl }})

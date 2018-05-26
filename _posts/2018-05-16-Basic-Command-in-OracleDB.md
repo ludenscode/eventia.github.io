@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Oracle DB 기본명령어-JSP/Spring 학습용
+title: (JSP/Spring 학습용) Oracle DB 기본명령어
+categories: til
 ---
 
 jsp/spring 학습시 필요한 oracle db (sqlplus) 의 기본명령어를 알아보겠습니다. 오라클 DB 설치는 XE11g 로 합니다. 다운과 설치는 여기서 다루지 않습니다. 간단하게 학습할 내용은 설치 후 꼭 필요한 기본 명령들입니다. 관리자 접속, 사용자 계정 생성, 인증, 종료, 테이블생성과 검색, 추가, 삭제, 레코드 추가, 수정, 삭제, 저장(커밋)등입니다.
@@ -263,4 +264,3 @@ SQL>SELECT NAME, DB_UNIQUE_NAME FROM v$database;
 <pre>
 SQL>SELECT INSTANCE FROM v$thread;
 </pre>
-

@@ -28,3 +28,18 @@ title: 깃허브 블로그 시작
 ![View the 아두이노(arduino)](https://user-images.githubusercontent.com/3831276/40096147-867af9b2-590a-11e8-8b04-31141fac5be1.jpg "an image title")
 
 https://user-images.githubusercontent.com/3831276/40096147-867af9b2-590a-11e8-8b04-31141fac5be1.jpg
+
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
